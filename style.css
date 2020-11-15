@@ -1,0 +1,146 @@
+html {
+    font-size:16px;
+    font-family:sans-serif;
+    font-family: 'Amatic SC', cursive;
+    color: #686d76;
+}
+
+#hangman {
+    width: 800px;
+    margin: 30px auto;
+    text-transform:uppercase;
+}
+
+#word {
+    letter-spacing: 5px;
+    font-size: 3rem;
+    padding: 30px 20px;
+    border: 3px black solid;
+    text-align: center;
+}
+
+#letters {
+    padding: 20px 50px;
+}
+
+#letters button {
+    padding: 10px;
+    margin: 10px;
+    font-family: 'Amatic SC', cursive !important;
+    font-size:1.7rem;
+    color:#373a40;
+  cursor: pointer;
+  border:1px solid #19d3da;
+}
+
+#letters button:hover {
+   background-color:#19d3da;
+}
+
+#output {
+    display: flex;
+    width: 100%;
+    margin-bottom:30px;
+  
+}
+
+#output .step {
+    margin-top:20px;
+    width: calc(100% / 8);
+}
+
+#output .step {
+    opacity: 0.05;
+}
+
+#output .step img {
+    width:100%;
+}
+
+#category {
+    text-align:center;
+    padding: 30px 0px;
+    text-transform:uppercase;
+    font-size:2vw;
+}
+
+@media (orientation:portrait) {
+    #hangman {
+        width: 250px;
+        margin: 10px auto;
+    }
+    
+    #word {
+        letter-spacing: 2px;
+        font-size: 1.7rem;
+        padding: 10px 20px;
+        border: 1px black solid;
+    }
+    
+    #letters {
+        padding: 10px 20px;
+    }
+    
+    #letters button {
+        padding: 6px;
+        margin: 6px;
+        font-size:1.4rem;
+    }
+    
+    #output {
+        margin-bottom:10px;
+      
+    }
+    
+    #output .step {
+        margin-top:20px;
+    }
+    
+
+    #category {
+        padding: 30px 0px;
+        font-size:5vw;
+    }
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 767px) and (orientation: landscape){
+    #hangman {
+        width: 400px;
+        margin: 10px auto;
+    
+    }
+    
+    #word {
+        letter-spacing: 2px;
+        font-size: 2rem;
+        padding: 10px 5px;
+        border: 2px black solid;
+    }
+    
+    #letters {
+        padding: 10px 30px;
+    }
+    
+    #letters button {
+        padding: 5px;
+        margin: 5px;
+        font-size:0.7rem;
+      border:0.5px solid #19d3da;
+    }
+    
+    
+    #output {
+
+        margin-bottom:8px;
+      
+    }
+    
+    #output .step {
+        margin-top:10px;
+    }
+    
+    #category {
+        padding: 10px 0px;
+    }
+}
