@@ -2,15 +2,7 @@
 
 > This is a Javascript application that will entertain your free time. In this game you have to guess quotes in few categories.
 
-## Table of contents
-
-- [Screenshots](#screenshots)
-- [Setup](#setup)
-- [Inspiration](#inspiration)
-
-## Screenshots
-
-![Example screenshot](./hangman.png)
+![](hangman.gif)
 
 ## Setup
 
