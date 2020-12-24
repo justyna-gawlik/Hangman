@@ -8,7 +8,7 @@
 
 To run this project install it locally and open index.html live server using for example Visual Studio Code or Atom.
 
-You can use it also here:
+You can use it also here: http://justynagawlik.pl/
 
 ## Inspiration
 
